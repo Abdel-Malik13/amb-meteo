@@ -3,6 +3,8 @@
     height: 50px;
     display: flex;
     justify-content: space-around;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
     color: #fff;
     background-color: rgba(47, 108, 159, .5);
 }

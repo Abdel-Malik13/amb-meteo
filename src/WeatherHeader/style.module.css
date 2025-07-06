@@ -4,6 +4,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
     background-color: rgba(19, 59, 108, .5);
 }
 

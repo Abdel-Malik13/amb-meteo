@@ -1,0 +1,29 @@
+.hourlyForecast {
+    width: 450px;
+    min-height: 180px;
+    margin-top: 30px;
+    border-radius: 18px;
+    background-color: rgba(29, 77, 127, .5);
+}
+
+.hourlyForecast h2 {
+    margin-left: 15px;
+    color: #fff;
+}
+
+.hourly {
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.hourlyItem {
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hourlytem span {
+    margin: 10px 0 10px 0
+}
