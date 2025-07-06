@@ -1,0 +1,33 @@
+.weatherInformations {
+    width: 450px;
+    height: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(29, 77, 127, .5);
+}
+
+/* .icon {
+    width: 100px;
+    height: 100px;
+} */
+
+.weatherData p {
+    color: #fff;
+}
+
+.weatherTemperature {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 0;
+}
+
+.weatherDescription {
+    font-size: 1.4em;
+    margin: 0;
+}
+
+.weatherFeelsLike {
+    font-size: 1em;
+    margin-top: 10px;
+}

@@ -1,0 +1,8 @@
+.weatherBonus {
+    width: 450px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    background-color: rgba(47, 108, 159, .5);
+}

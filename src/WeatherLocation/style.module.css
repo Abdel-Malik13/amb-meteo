@@ -1,0 +1,18 @@
+.weatherLocation {
+    width: 450px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(29, 77, 127, .5);
+}
+
+.weatherLocation h2 {
+    margin-left: 15px;
+    color: #fff;
+}
+
+.weatherLocation p {
+    margin-right: 15px;
+    color: #fff;
+}

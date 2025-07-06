@@ -1,71 +1,108 @@
-# Getting Started with Create React App
+<div id="top">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- HEADER STYLE: CLASSIC -->
+<div align="center">
 
-## Available Scripts
+# AMB-METEO
 
-In the project directory, you can run:
+<em>Empowering Real-Time Weather Insights for a Smarter Future</em>
 
-### `npm start`
+<!-- BADGES -->
+<img src="https://img.shields.io/github/last-commit/Abdel-Malik13/amb-meteo?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+<img src="https://img.shields.io/github/languages/top/Abdel-Malik13/amb-meteo?style=flat&color=0080ff" alt="repo-top-language">
+<img src="https://img.shields.io/github/languages/count/Abdel-Malik13/amb-meteo?style=flat&color=0080ff" alt="repo-language-count">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<em>Built with the tools and technologies:</em>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
+<img src="https://img.shields.io/badge/Markdown-000000.svg?style=flat&logo=Markdown&logoColor=white" alt="Markdown">
+<img src="https://img.shields.io/badge/npm-CB3837.svg?style=flat&logo=npm&logoColor=white" alt="npm">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript">
+<img src="https://img.shields.io/badge/React-61DAFB.svg?style=flat&logo=React&logoColor=black" alt="React">
 
-### `npm test`
+</div>
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Table of Contents
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Testing](#testing)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Overview
 
-### `npm run eject`
+amb-meteo is a developer-focused toolkit that provides a solid foundation for building React-based weather applications. It streamlines setup, testing, and deployment processes, enabling developers to focus on creating high-quality user experiences. The core features include:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- 🛠️ **Development & Deployment:** Simplifies project setup and operational commands within the Create React App ecosystem.
+- 🚀 **Testing Framework:** Integrates Jest with custom DOM matchers for expressive, reliable UI tests.
+- 📊 **Performance Monitoring:** Implements web vitals tracking to ensure optimal app responsiveness.
+- 🔧 **Configuration & Dependencies:** Manages core dependencies and project structure for consistent development workflows.
+- 🌐 **UI Structure & Insights:** Sets up the main app layout and provides metrics to improve user experience.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+This project requires the following dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Programming Language:** JavaScript
+- **Package Manager:** Npm
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Installation
 
-### Code Splitting
+Build amb-meteo from the source and install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. **Clone the repository:**
 
-### Analyzing the Bundle Size
+   ```sh
+   ❯ git clone https://github.com/Abdel-Malik13/amb-meteo
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. **Navigate to the project directory:**
 
-### Making a Progressive Web App
+   ```sh
+   ❯ cd amb-meteo
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. **Install the dependencies:**
 
-### Advanced Configuration
+**Using [npm](https://www.npmjs.com/):**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```sh
+❯ npm install
+```
 
-### Deployment
+### Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Run the project with:
 
-### `npm run build` fails to minify
+**Using [npm](https://www.npmjs.com/):**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# amb-meteo
+```sh
+npm start
+```
+
+### Testing
+
+Amb-meteo uses the {**test_framework**} test framework. Run the test suite with:
+
+**Using [npm](https://www.npmjs.com/):**
+
+```sh
+npm test
+```
+
+---
+
+<div align="left"><a href="#top">⬆ Return</a></div>
+
+---
